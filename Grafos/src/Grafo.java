@@ -6,35 +6,6 @@ import java.nio.file.*;
 public class Grafo{
     private static HashMap<String, Set<String>> map = new HashMap<>();
 
-    public static void main(String args[]) {
-        // Grafo g1_1 = Grafo.genErdosRenyi(30, 15);
-        // g1_1.toGVFile("genErdos30", g1_1.toString());
-        // Grafo g1_2 = Grafo.genErdosRenyi(100, 50);
-        // g1_2.toGVFile("genErdos100", g1_2.toString());
-        // Grafo g1_3 = Grafo.genErdosRenyi(500, 250);
-        // g1_3.toGVFile("genErdos500", g1_3.toString());
-
-        // Grafo g2_1 = Grafo.genGeografico(30, 0.5);
-        // g2_1.toGVFile("genGeografico30", g2_1.toString());
-        // Grafo g2_2 = Grafo.genGeografico(100, 0.5);
-        // g2_2.toGVFile("genGeografico100", g2_2.toString());
-        // Grafo g2_3 = Grafo.genGeografico(500, 0.5);
-        // g2_3.toGVFile("genGeografico500", g2_3.toString());
-
-        // Grafo g3_1 = Grafo.genGilbert(30, .8);
-        // g3_1.toGVFile("genGilbert30", g3_1.toString());
-        // Grafo g3_2 = Grafo.genGilbert(100, .8);
-        // g3_2.toGVFile("genGilbert100", g3_2.toString());
-        // Grafo g3_3 = Grafo.genGilbert(500, .8);
-        // g3_3.toGVFile("genGilbert500", g3_3.toString());
-
-        // Grafo g4_1 = Grafo.genBarabasiAlbert(30, 10);
-        // g4_1.toGVFile("genBarabasi30", g4_1.toString());
-        // Grafo g4_2 = Grafo.genBarabasiAlbert(100, 10);
-        // g4_2.toGVFile("genBarabasi100", g4_2.toString());
-        // Grafo g4_3 = Grafo.genBarabasiAlbert(500, 10);
-        // g4_3.toGVFile("genBarabasi500", g4_3.toString());
-    }
 
     public void addNode(String n) {
         map.put(n, new HashSet<String>());
