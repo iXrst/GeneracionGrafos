@@ -28,12 +28,12 @@ public class Grafo{
         // Grafo g3_3 = Grafo.genGilbert(500, .8);
         // g3_3.toGVFile("genGilbert500", g3_3.toString());
 
-        Grafo g4_1 = Grafo.genBarabasiAlbert(30, 10);
-        g4_1.toGVFile("genBarabasi30", g4_1.toString());
-        Grafo g4_2 = Grafo.genBarabasiAlbert(100, 10);
-        g4_2.toGVFile("genBarabasi100", g4_2.toString());
-        Grafo g4_3 = Grafo.genBarabasiAlbert(500, 10);
-        g4_3.toGVFile("genBarabasi500", g4_3.toString());
+        // Grafo g4_1 = Grafo.genBarabasiAlbert(30, 10);
+        // g4_1.toGVFile("genBarabasi30", g4_1.toString());
+        // Grafo g4_2 = Grafo.genBarabasiAlbert(100, 10);
+        // g4_2.toGVFile("genBarabasi100", g4_2.toString());
+        // Grafo g4_3 = Grafo.genBarabasiAlbert(500, 10);
+        // g4_3.toGVFile("genBarabasi500", g4_3.toString());
     }
 
     public void addNode(String n) {
